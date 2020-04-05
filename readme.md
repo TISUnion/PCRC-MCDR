@@ -1,14 +1,16 @@
 PCRC-MCDR
 ----------
 
-将 [PCRC](https://github.com/Fallen-Breath/PCRC) 作为一个插件导入至 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged)!
+[中文](https://github.com/TISUnion/PCRC-MCDR/blob/master/readme_cn.md)
 
-## 使用方法
+Import [PCRC](https://github.com/Fallen-Breath/PCRC) as a [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) plugin!
 
-1. 将 `PCRC-MCDR.py` 放入 MCDR 的 `plugins/` 文件夹
-2. 在 PRCR 的 [Release 页面](https://github.com/Fallen-Breath/PCRC/releases) 下载不低于 `0.9.0-alpha` 版本的 universal 版 PCRC，将压缩包解压至 `plugins/PCRC-xxx-universal/`
-3. 将 `plugins/` 文件夹中 `PCRC-xxx-universal/` 文件夹重命名为 `PCRC/` 文件夹
-4. 此时 MCDR 的文件结构大致如下
+## Usage
+
+1. Put `PCRC-MCDR.py` into the `plugins/` folder of MCDR
+2. Download universal release of PCRC with version not less than `0.9.0-alpha` in PCRC [release page](https://github.com/Fallen-Breath/PCRC/releases), extract it to `plugins/PCRC-xxx-universal/`
+3. Rename `PCRC-xxx-universal/` folder in `plugins/` folder to `PCRC/`
+4. At this time, the file structure of MCDR is roughly as follows
 
 ```
 MCDReforged/
@@ -24,11 +26,11 @@ MCDReforged/
 └─ ...
 ```
 
-PCRC 的配置文件将为 `MCDReforged/plugins/PCRC/config.json`
+The PCRC configuration file will be `MCDReforged/plugins/PCRC/config.json`
 
-录像文件将会存放至 `MCDReforged/PCRC_recordings/`
+The replay recording file will be stored in `MCDReforged/PCRC_recordings/`
 
-## 指令
+## Command
 
-- `!!PCRC start`: 启动 PCRC
-- `!!PCRC stop`: 关闭 PCRC。仅在控制台可用
+- `!!PCRC start`: Start PCRC
+- `!!PCRC stop`: Stop PCRC. Only works with console command input
