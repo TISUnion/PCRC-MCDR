@@ -30,7 +30,7 @@ def on_info(server, info):
 def on_load(server, old):
 	global PCRC
 	try:
-		if old is not None and old.PCRC.is_working():
+		if old is not None and old.PCRC is not None and old.PCRC.is_working():
 			PCRC = old.PCRC
 		else:
 			load_PCRC()
