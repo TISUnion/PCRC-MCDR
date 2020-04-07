@@ -40,6 +40,8 @@ def on_load(server, old):
 
 def on_mcdr_stop(server):
 	global PCRC
+	if PCRC is None:
+		return
 	if PCRC.is_working():
 		PCRC.stop()
 	else:
