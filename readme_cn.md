@@ -15,7 +15,7 @@ PCRC-MCDR
 ```
 MCDReforged/
 ├─ plugins/
-│  ├─ PCRC/
+│  ├─ PCRC-MCDR/
 │  │  ├─ PCRC.py
 │  │  ├─ protocol.json
 │  │  ├─ config.json

@@ -10,7 +10,7 @@ PREFIX = '!!PCRC'
 
 def load_PCRC():
 	global PCRC
-	PCRC = importlib.import_module('PCRC.PCRC')
+	PCRC = importlib.import_module('PCRC-MCDR.PCRC')
 
 
 def on_info(server, info):

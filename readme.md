@@ -15,7 +15,7 @@ Import [PCRC](https://github.com/Fallen-Breath/PCRC) as a [MCDReforged](https://
 ```
 MCDReforged/
 ├─ plugins/
-│  ├─ PCRC/
+│  ├─ PCRC-MCDR/
 │  │  ├─ PCRC.py
 │  │  ├─ protocol.json
 │  │  ├─ config.json
