@@ -9,7 +9,7 @@ PCRC-MCDR
 
 1. 将 `PCRC-MCDR.py` 放入 MCDR 的 `plugins/` 文件夹
 2. 在 PCRC 的 [Release 页面](https://github.com/Fallen-Breath/PCRC/releases) 下载不低于 `0.9.0-alpha` 版本的 universal 版 PCRC，将压缩包解压至 `plugins/PCRC-xxx-universal/`
-3. 将 `plugins/` 文件夹中 `PCRC-xxx-universal/` 文件夹重命名为 `PCRC/` 文件夹
+3. 将 `plugins/` 文件夹中 `PCRC-xxx-universal/` 文件夹重命名为 `PCRC-MCDR/` 文件夹
 4. 此时 MCDR 的文件结构大致如下
 
 ```

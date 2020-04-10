@@ -9,7 +9,7 @@ Import [PCRC](https://github.com/Fallen-Breath/PCRC) as a [MCDReforged](https://
 
 1. Put `PCRC-MCDR.py` into the `plugins/` folder of MCDR
 2. Download universal release of PCRC with version not less than `0.9.0-alpha` in PCRC [release page](https://github.com/Fallen-Breath/PCRC/releases), extract it to `plugins/PCRC-xxx-universal/`
-3. Rename `PCRC-xxx-universal/` folder in `plugins/` folder to `PCRC/`
+3. Rename `PCRC-xxx-universal/` folder in `plugins/` folder to `PCRC-MCDR/`
 4. At this time, the file structure of MCDR is roughly as follows
 
 ```
