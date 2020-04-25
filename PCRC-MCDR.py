@@ -7,6 +7,21 @@ sys.path.append('plugins/')
 PCRC = None
 PREFIX = '!!PCRC'
 
+# 0=guest 1=user 2=helper 3=admin
+startPermission = 1
+stopPermission = 2
+
+def permission(server, info, pem):
+	try:
+		if server.get_permission_level(info.player) >= pem:
+			return True
+		else:
+			return False
+	except TypeError:
+		if info.source == 1:
+			return True
+		else:
+			return False
 
 def load_PCRC():
 	global PCRC
@@ -14,13 +29,13 @@ def load_PCRC():
 
 
 def on_info(server, info):
-	if info.is_user and info.content == '!!PCRC start':
+	if permission(server, info, startPermission) and info.content == '!!PCRC start':
 		server.reply(info, 'Starting PCRC')
 		if PCRC.is_working():
 			server.reply(info, 'PCRC is already running!')
 		else:
 			PCRC.start()
-	if info.source == 1 and info.content == '!!PCRC stop':
+	if permission(server, info, stopPermission) and info.content == '!!PCRC stop':
 		if PCRC.is_working():
 			PCRC.stop()
 		else:
