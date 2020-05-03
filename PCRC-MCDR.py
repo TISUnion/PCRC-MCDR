@@ -14,7 +14,7 @@ def permission(server, info, perm):
     if info.is_user:
         if info.source == 1:
             return True
-        elif server.get_permission_level(info.player) >= perm:
+        elif server.get_permission_level(info) >= perm:
             return True
     return False
 
