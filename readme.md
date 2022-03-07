@@ -1,3 +1,7 @@
+[PCRC](https://github.com/Fallen-Breath/PCRC) v1.0+ includes MCDR support already, so no need for this adaptor plugin if you are using MCDR >= 2.0
+
+-------------
+
 PCRC-MCDR
 ----------
 
